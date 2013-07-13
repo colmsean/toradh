@@ -1,2 +1,3 @@
 root init root set self root .
+root init sys set status ready .
 !
