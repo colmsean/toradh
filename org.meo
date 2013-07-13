@@ -1,3 +1,6 @@
 root init root set self root .
 root init sys set status ready .
+root init root set myworld world .
+root init root get myworld initworld .
+world initworld world set user person .
 !
