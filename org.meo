@@ -3,4 +3,6 @@ root init sys set status ready .
 root init root set myworld world .
 root init root get myworld initworld .
 world initworld world set user person .
+world initworld world get user wakeup .
+person wakeup person set conscious true .
 !
