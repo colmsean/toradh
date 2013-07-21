@@ -10,6 +10,11 @@ world initworld world get user wakeup .
 person wakeup person set conscious true .
 person wakeup person get self shower .
 person wakeup person get self breakfast .
+person wakeup person get self dress .
+person wakeup person get self gotowork .
 person shower person set clean true .
 person breakfast person set hungry false .
+person breakfast person set diet porridge .
+person dress person set wearing clothes .
+person gotowork person set where office .
 !
