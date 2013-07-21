@@ -2,7 +2,14 @@ root init root set self root .
 root init sys set status ready .
 root init root set myworld world .
 root init root get myworld initworld .
+root init person set self person .
+root pre person set self person .
+root pre root get self init .
 world initworld world set user person .
 world initworld world get user wakeup .
 person wakeup person set conscious true .
+person wakeup person get self shower .
+person wakeup person get self breakfast .
+person shower person set clean true .
+person breakfast person set hungry false .
 !
