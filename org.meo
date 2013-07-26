@@ -17,4 +17,6 @@ person breakfast person set hungry false .
 person breakfast person set diet porridge .
 person dress person set wearing clothes .
 person gotowork person set where office .
+tester void box1 set open true .
+tester void box2 set open true .
 !
