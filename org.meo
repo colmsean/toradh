@@ -5,6 +5,7 @@ root init root get myworld initworld .
 root init person set self person .
 root pre person set self person .
 root pre root get self init .
+root pre person get self usual .
 world initworld world set user person .
 world initworld world get user wakeup .
 person wakeup person set conscious true .
@@ -12,6 +13,7 @@ person wakeup person get self shower .
 person wakeup person get self breakfast .
 person wakeup person get self dress .
 person wakeup person get self gotowork .
+person wakeup person get mypet feed .
 person shower person set clean true .
 person breakfast person set hungry false .
 person breakfast person set diet porridge .
@@ -19,6 +21,9 @@ person dress person set wearing clothes .
 person gotowork person set where office .
 person gotowork person get self drive .
 person drive car set passenger person .
+person usual person set mypet puppy .
+person usual person get mypet feed .
 tester void box1 set open true .
 tester void box2 set open true .
+puppy feed puppy set hungry false .
 !
