@@ -26,4 +26,5 @@ person usual person get mypet feed .
 tester void box1 set open true .
 tester void box2 set open true .
 puppy feed puppy set hungry false .
+puppy feed puppy set diet choicecuts .
 !
