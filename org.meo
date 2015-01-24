@@ -3,6 +3,12 @@ panel show panel set colour green .
 panel show panel set bordered true .
 scrollbar describe scrollbar set colour red .
 scrollbar describe scrollbar set bordered true .
+scrollbar describe scrollbar set linked panel .
 cursor fortext character set showas dot .
 margin default margin set narrow true .
+margin default margin set overlay transparent .
+workspace setup workspace set colour lightgrey .
+triplestore report triplestore set visible true .
+browser lock browser set position locked .
+browser unlock browser set position mutable .
 !
