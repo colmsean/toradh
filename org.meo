@@ -1,2 +1,7 @@
 root init root set self root .
+panel show panel set colour green .
+panel show panel set bordered true .
+scrollbar describe scrollbar set colour red .
+scrollbar describe scrollbar set bordered true .
+cursor fortext character set showas dot .
 !
